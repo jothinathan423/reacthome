@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom/client';
 import Sample from './content';
 import NavbarCommon from './navigation';
 import CollapsibleExample from './scroll';
+import Pro from './static';
+import Homepg from './homekavin';
+import Content from './contentkavin';
+import PageSelector from './app';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <CollapsibleExample/>
+  {/* <CollapsibleExample/>
+  <Pro/>
+  <Homepg/>
+  <Content/> */}
 
-  <Sample/>
+  <PageSelector/>
 
   </>
 );
